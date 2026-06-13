@@ -1,0 +1,96 @@
+{
+  "source": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+  "tables": {
+    "Localizable": [
+      {
+        "comment": "",
+        "key": "ioBroker Wert",
+        "location": {
+          "startingColumn": 35,
+          "startingLine": 19
+        }
+      },
+      {
+        "comment": "",
+        "key": "Zeigt einen ausgewählten ioBroker-Wert aus dem Watch-Snapshot.",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 20
+        }
+      },
+      {
+        "comment": "",
+        "key": "ioBroker Objekt",
+        "location": {
+          "startingColumn": 49,
+          "startingLine": 26
+        }
+      },
+      {
+        "comment": "",
+        "key": "Wähle ein für die Watch freigegebenes Objekt.",
+        "location": {
+          "startingColumn": 48,
+          "startingLine": 27
+        }
+      },
+      {
+        "comment": "",
+        "key": "Objekt",
+        "location": {
+          "startingColumn": 23,
+          "startingLine": 29
+        }
+      },
+      {
+        "comment": "",
+        "key": "ioBroker Objekt",
+        "location": {
+          "startingColumn": 76,
+          "startingLine": 34
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@",
+        "location": {
+          "startingColumn": 38,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@",
+        "location": {
+          "startingColumn": 66,
+          "startingLine": 41
+        }
+      },
+      {
+        "comment": "",
+        "key": "ioBroker Wert",
+        "location": {
+          "startingColumn": 82,
+          "startingLine": 69
+        }
+      },
+      {
+        "comment": "",
+        "key": "%@: %@%@",
+        "location": {
+          "startingColumn": 14,
+          "startingLine": 154
+        }
+      },
+      {
+        "comment": "",
+        "key": "Veraltet",
+        "location": {
+          "startingColumn": 22,
+          "startingLine": 140
+        }
+      }
+    ]
+  },
+  "version": 1
+}

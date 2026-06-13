@@ -1,0 +1,2 @@
+Target dependency graph (1 target)
+Target 'ioBroker Objects Watch Widgets' in project 'iobroker objects' (no dependencies)
