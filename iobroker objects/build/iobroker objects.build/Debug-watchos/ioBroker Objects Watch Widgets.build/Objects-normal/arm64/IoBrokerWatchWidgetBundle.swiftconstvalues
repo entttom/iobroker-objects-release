@@ -1,0 +1,489 @@
+[
+  {
+    "typeName": "ioBroker_Objects_Watch_Widgets.SelectWatchObjectIntent",
+    "mangledTypeName": "30ioBroker_Objects_Watch_Widgets06SelectD12ObjectIntentV",
+    "kind": "struct",
+    "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+    "line": 25,
+    "conformances": [
+      "AppIntents.WidgetConfigurationIntent",
+      "AppIntents.AppIntent",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.Sendable",
+      "Swift.SendableMetatype"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.WidgetConfigurationIntent",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.AppIntent",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "NeverResult",
+        "substitutedTypeName": "Swift.Never",
+        "substitutedMangledTypeName": "s5NeverO"
+      },
+      {
+        "typeAliasName": "PerformResult",
+        "substitutedTypeName": "Swift.Never",
+        "substitutedMangledTypeName": "s5NeverO"
+      },
+      {
+        "typeAliasName": "SummaryContent",
+        "substitutedTypeName": "some AppIntents.ParameterSummary",
+        "substitutedMangledTypeName": "10AppIntents0A6IntentPAAE16parameterSummaryQrvpZQOy30ioBroker_Objects_Watch_Widgets06Selecti6ObjectC0V_Qo_",
+        "opaqueTypeProtocolRequirements": [
+          "AppIntents.ParameterSummary"
+        ],
+        "opaqueTypeSameTypeRequirements": []
+      }
+    ],
+    "properties": [
+      {
+        "label": "_object",
+        "type": "AppIntents.IntentParameter<Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 30,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Objekt"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        }
+      },
+      {
+        "label": "title",
+        "type": "Foundation.LocalizedStringResource",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 26,
+        "valueKind": "RawLiteral",
+        "value": "ioBroker Objekt"
+      },
+      {
+        "label": "description",
+        "type": "AppIntents.IntentDescription",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 27,
+        "valueKind": "RawLiteral",
+        "value": "Wähle ein für die Watch freigegebenes Objekt."
+      },
+      {
+        "label": "object",
+        "type": "Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 30,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.IntentParameter<Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>>",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "Objekt"
+            },
+            {
+              "label": "description",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "default",
+              "type": "Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "requestValueDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "requestDisambiguationDialog",
+              "type": "Swift.Optional<AppIntents.IntentDialog>",
+              "valueKind": "NilLiteral"
+            },
+            {
+              "label": "inputConnectionBehavior",
+              "type": "AppIntents.InputConnectionBehavior",
+              "valueKind": "Runtime"
+            }
+          ]
+        },
+        "propertyWrappers": [
+          {
+            "type": "AppIntents.IntentParameter",
+            "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+            "line": 29,
+            "arguments": [
+              {
+                "label": "title",
+                "type": "Foundation.LocalizedStringResource",
+                "valueKind": "RawLiteral",
+                "value": "Objekt"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "$object",
+        "type": "AppIntents.IntentParameter<Swift.Optional<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>>",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 30,
+        "valueKind": "Runtime"
+      }
+    ]
+  },
+  {
+    "typeName": "ioBroker_Objects_Watch_Widgets.WatchObjectEntity",
+    "mangledTypeName": "30ioBroker_Objects_Watch_Widgets0D12ObjectEntityV",
+    "kind": "struct",
+    "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+    "line": 33,
+    "conformances": [
+      "AppIntents.AppEntity",
+      "Swift.Identifiable",
+      "AppIntents.AppValue",
+      "AppIntents.DisplayRepresentable",
+      "AppIntents.PersistentlyIdentifiable",
+      "AppIntents.TypeDisplayRepresentable",
+      "AppIntents._IntentValue",
+      "Swift.Sendable",
+      "AppIntents.InstanceDisplayRepresentable",
+      "Swift.SendableMetatype",
+      "Foundation.CustomLocalizedStringResourceConvertible"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.AppEntity",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.Identifiable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.AppValue",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.DisplayRepresentable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.TypeDisplayRepresentable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents._IntentValue",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.InstanceDisplayRepresentable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Foundation.CustomLocalizedStringResourceConvertible",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "DefaultQuery",
+        "substitutedTypeName": "ioBroker_Objects_Watch_Widgets.WatchObjectQuery",
+        "substitutedMangledTypeName": "30ioBroker_Objects_Watch_Widgets0D11ObjectQueryV"
+      },
+      {
+        "typeAliasName": "ID",
+        "substitutedTypeName": "Swift.String",
+        "substitutedMangledTypeName": "SS"
+      },
+      {
+        "typeAliasName": "ValueType",
+        "substitutedTypeName": "ioBroker_Objects_Watch_Widgets.WatchObjectEntity",
+        "substitutedMangledTypeName": "30ioBroker_Objects_Watch_Widgets0D12ObjectEntityV"
+      },
+      {
+        "typeAliasName": "UnwrappedType",
+        "substitutedTypeName": "ioBroker_Objects_Watch_Widgets.WatchObjectEntity",
+        "substitutedMangledTypeName": "30ioBroker_Objects_Watch_Widgets0D12ObjectEntityV"
+      },
+      {
+        "typeAliasName": "Specification",
+        "substitutedTypeName": "AppIntents.EmptyResolverSpecification<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>",
+        "substitutedMangledTypeName": "10AppIntents26EmptyResolverSpecificationVy30ioBroker_Objects_Watch_Widgets0I12ObjectEntityVG"
+      }
+    ],
+    "properties": [
+      {
+        "label": "id",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 37,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "displayName",
+        "type": "Swift.String",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 38,
+        "valueKind": "Runtime"
+      },
+      {
+        "label": "typeDisplayRepresentation",
+        "type": "AppIntents.TypeDisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 34,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.TypeDisplayRepresentation",
+          "arguments": [
+            {
+              "label": "name",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "RawLiteral",
+              "value": "ioBroker Objekt"
+            },
+            {
+              "label": "numericFormat",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "NilLiteral"
+            }
+          ]
+        }
+      },
+      {
+        "label": "defaultQuery",
+        "type": "ioBroker_Objects_Watch_Widgets.WatchObjectQuery",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "true",
+        "isComputed": "false",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 35,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "ioBroker_Objects_Watch_Widgets.WatchObjectQuery",
+          "arguments": []
+        }
+      },
+      {
+        "label": "displayRepresentation",
+        "type": "AppIntents.DisplayRepresentation",
+        "mangledTypeName": "n/a - deprecated",
+        "isStatic": "false",
+        "isComputed": "true",
+        "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+        "line": 40,
+        "valueKind": "InitCall",
+        "value": {
+          "type": "AppIntents.DisplayRepresentation",
+          "arguments": [
+            {
+              "label": "title",
+              "type": "Foundation.LocalizedStringResource",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  },
+                  {
+                    "valueKind": "Runtime"
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "subtitle",
+              "type": "Swift.Optional<Foundation.LocalizedStringResource>",
+              "valueKind": "InterpolatedStringLiteral",
+              "value": {
+                "segments": [
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  },
+                  {
+                    "valueKind": "Runtime"
+                  },
+                  {
+                    "valueKind": "RawLiteral",
+                    "value": ""
+                  }
+                ]
+              }
+            },
+            {
+              "label": "image",
+              "type": "Swift.Optional<AppIntents.DisplayRepresentation.Image>",
+              "valueKind": "NilLiteral"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  {
+    "typeName": "ioBroker_Objects_Watch_Widgets.WatchObjectQuery",
+    "mangledTypeName": "30ioBroker_Objects_Watch_Widgets0D11ObjectQueryV",
+    "kind": "struct",
+    "file": "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift",
+    "line": 45,
+    "conformances": [
+      "AppIntents.EntityQuery",
+      "AppIntents.DynamicOptionsProvider",
+      "AppIntents.PersistentlyIdentifiable",
+      "Swift.Sendable",
+      "AppIntents._SupportsAppDependencies",
+      "Swift.SendableMetatype",
+      "Swift.BitwiseCopyable"
+    ],
+    "allConformances": [
+      {
+        "protocolName": "AppIntents.EntityQuery",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.DynamicOptionsProvider",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents.PersistentlyIdentifiable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.Sendable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "AppIntents._SupportsAppDependencies",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.SendableMetatype",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      },
+      {
+        "protocolName": "Swift.BitwiseCopyable",
+        "conformanceDefiningModule": "ioBroker_Objects_Watch_Widgets"
+      }
+    ],
+    "associatedTypeAliases": [
+      {
+        "typeAliasName": "Entity",
+        "substitutedTypeName": "ioBroker_Objects_Watch_Widgets.WatchObjectEntity",
+        "substitutedMangledTypeName": "30ioBroker_Objects_Watch_Widgets0D12ObjectEntityV"
+      },
+      {
+        "typeAliasName": "Result",
+        "substitutedTypeName": "Swift.Array<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>",
+        "substitutedMangledTypeName": "Say30ioBroker_Objects_Watch_Widgets0D12ObjectEntityVG"
+      },
+      {
+        "typeAliasName": "Result",
+        "substitutedTypeName": "Swift.Array<ioBroker_Objects_Watch_Widgets.WatchObjectEntity>",
+        "substitutedMangledTypeName": "Say30ioBroker_Objects_Watch_Widgets0D12ObjectEntityVG"
+      },
+      {
+        "typeAliasName": "DefaultValue",
+        "substitutedTypeName": "ioBroker_Objects_Watch_Widgets.WatchObjectEntity",
+        "substitutedMangledTypeName": "30ioBroker_Objects_Watch_Widgets0D12ObjectEntityV"
+      }
+    ],
+    "properties": []
+  }
+]

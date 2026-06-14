@@ -1,0 +1,39 @@
+{
+  "" : {
+    "diagnostics" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/ioBroker Objects Watch Widgets-primary.dia",
+    "emit-module-dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/ioBroker Objects Watch Widgets-primary-emit-module.d",
+    "emit-module-diagnostics" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/ioBroker Objects Watch Widgets-primary-emit-module.dia",
+    "pch" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/ioBroker Objects Watch Widgets-primary-Bridging-header.pch",
+    "swift-dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/ioBroker Objects Watch Widgets-primary.swiftdeps"
+  },
+  "/Users/thomasentner/Github/iobroker-objects/iobroker objects/Shared/Watch/WatchPayloads.swift" : {
+    "const-values" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.swiftconstvalues",
+    "dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.d",
+    "diagnostics" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.dia",
+    "index-unit-output-path" : "/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.o",
+    "llvm-bc" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.bc",
+    "object" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.o",
+    "swift-dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads.swiftdeps",
+    "swiftmodule" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchPayloads~partial.swiftmodule"
+  },
+  "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift" : {
+    "const-values" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.swiftconstvalues",
+    "dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.d",
+    "diagnostics" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.dia",
+    "index-unit-output-path" : "/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.o",
+    "llvm-bc" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.bc",
+    "object" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.o",
+    "swift-dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle.swiftdeps",
+    "swiftmodule" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/IoBrokerWatchWidgetBundle~partial.swiftmodule"
+  },
+  "/Users/thomasentner/Github/iobroker-objects/iobroker objects/ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift" : {
+    "const-values" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.swiftconstvalues",
+    "dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.d",
+    "diagnostics" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.dia",
+    "index-unit-output-path" : "/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.o",
+    "llvm-bc" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.bc",
+    "object" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.o",
+    "swift-dependencies" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore.swiftdeps",
+    "swiftmodule" : "/Users/thomasentner/Github/iobroker-objects/iobroker objects/build/iobroker objects.build/Debug-watchos/ioBroker Objects Watch Widgets.build/Objects-normal/arm64/WatchWidgetDataStore~partial.swiftmodule"
+  }
+}

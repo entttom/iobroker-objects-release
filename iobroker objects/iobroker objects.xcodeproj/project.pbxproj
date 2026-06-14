@@ -1,0 +1,963 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0EC92D098D8FB1C60634781B /* ErrorAndStoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4CD8F182459C747364C304 /* ErrorAndStoreTests.swift */; };
+		30A24934B9617131F05591D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FD6305B83F4ACBCE914B15 /* Foundation.framework */; };
+		40233FA5F8FB736E3D432E1B /* iobroker_objectsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9681934E92AA860796C6BFAE /* iobroker_objectsUITests.swift */; };
+		48DFEC906ACCCEAAA1D3B539 /* FilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE5DC0658BB7013D25A20833 /* FilterTests.swift */; };
+		6834B3B21901E8BF06029997 /* ModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C5DD11F321E9FFC5F1932FF8 /* ModelTests.swift */; };
+		6BB2E89E6FE3EED604B5A481 /* DashboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7160819180107A59E02B9B3C /* DashboardTests.swift */; };
+		7A0000210000000000000021 /* ioBroker Objects Watch Widgets.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 7A0000020000000000000002 /* ioBroker Objects Watch Widgets.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		7A0000800000000000000080 /* Shared/Watch/WatchPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000900000000000000090 /* Shared/Watch/WatchPayloads.swift */; };
+		7A0000810000000000000081 /* ioBroker Objects Watch App/ioBrokerObjectsWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000910000000000000091 /* ioBroker Objects Watch App/ioBrokerObjectsWatchApp.swift */; };
+		7A0000820000000000000082 /* ioBroker Objects Watch App/Models/WatchAppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000920000000000000092 /* ioBroker Objects Watch App/Models/WatchAppModel.swift */; };
+		7A0000830000000000000083 /* ioBroker Objects Watch App/Services/WatchConnectivityClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000930000000000000093 /* ioBroker Objects Watch App/Services/WatchConnectivityClient.swift */; };
+		7A0000840000000000000084 /* ioBroker Objects Watch App/Services/WatchHaptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000940000000000000094 /* ioBroker Objects Watch App/Services/WatchHaptics.swift */; };
+		7A0000850000000000000085 /* ioBroker Objects Watch App/Services/WatchSnapshotStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000950000000000000095 /* ioBroker Objects Watch App/Services/WatchSnapshotStore.swift */; };
+		7A0000860000000000000086 /* ioBroker Objects Watch App/Views/WatchHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000960000000000000096 /* ioBroker Objects Watch App/Views/WatchHomeView.swift */; };
+		7A0000870000000000000087 /* Shared/Watch/WatchPayloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000900000000000000090 /* Shared/Watch/WatchPayloads.swift */; };
+		7A0000880000000000000088 /* ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000970000000000000097 /* ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift */; };
+		7A0000890000000000000089 /* ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A0000980000000000000098 /* ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift */; };
+		7EDE01E314E94DAA663F39EC /* IoBrokerValueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB6E3C4A5C43E248DDEE1DCE /* IoBrokerValueTests.swift */; };
+		7FFC0DF2AA57C6A4B41701CC /* ObjectTreeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70893AF16E3A203327FB4E5D /* ObjectTreeTests.swift */; };
+		A973578492409D34EA840B19 /* RESTClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1127065C8BB4B9FA7D8C89E /* RESTClientTests.swift */; };
+		D20AAF5B32E5621DFB7C3C04 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90FD6305B83F4ACBCE914B15 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AD09048ACEF5A64FB1646E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC28AC72FD58A63002533D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC28ACE2FD58A63002533D9;
+			remoteInfo = "iobroker objects";
+		};
+		310122E245C23DB52DEAE7FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC28AC72FD58A63002533D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AAC28ACE2FD58A63002533D9;
+			remoteInfo = "iobroker objects";
+		};
+		7A0000720000000000000072 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AAC28AC72FD58A63002533D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7A0000510000000000000051;
+			remoteInfo = "ioBroker Objects Watch Widgets";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7A0000310000000000000031 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7A0000210000000000000021 /* ioBroker Objects Watch Widgets.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B4CD8F182459C747364C304 /* ErrorAndStoreTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ErrorAndStoreTests.swift; sourceTree = "<group>"; };
+		541FA2D47A4D34E68448FB1C /* iobroker objectsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iobroker objectsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		70893AF16E3A203327FB4E5D /* ObjectTreeTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ObjectTreeTests.swift; sourceTree = "<group>"; };
+		7160819180107A59E02B9B3C /* DashboardTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DashboardTests.swift; sourceTree = "<group>"; };
+		7A0000010000000000000001 /* ioBroker Objects Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ioBroker Objects Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0000020000000000000002 /* ioBroker Objects Watch Widgets.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ioBroker Objects Watch Widgets.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A0000900000000000000090 /* Shared/Watch/WatchPayloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shared/Watch/WatchPayloads.swift; sourceTree = "<group>"; };
+		7A0000910000000000000091 /* ioBroker Objects Watch App/ioBrokerObjectsWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch App/ioBrokerObjectsWatchApp.swift"; sourceTree = "<group>"; };
+		7A0000920000000000000092 /* ioBroker Objects Watch App/Models/WatchAppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch App/Models/WatchAppModel.swift"; sourceTree = "<group>"; };
+		7A0000930000000000000093 /* ioBroker Objects Watch App/Services/WatchConnectivityClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch App/Services/WatchConnectivityClient.swift"; sourceTree = "<group>"; };
+		7A0000940000000000000094 /* ioBroker Objects Watch App/Services/WatchHaptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch App/Services/WatchHaptics.swift"; sourceTree = "<group>"; };
+		7A0000950000000000000095 /* ioBroker Objects Watch App/Services/WatchSnapshotStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch App/Services/WatchSnapshotStore.swift"; sourceTree = "<group>"; };
+		7A0000960000000000000096 /* ioBroker Objects Watch App/Views/WatchHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch App/Views/WatchHomeView.swift"; sourceTree = "<group>"; };
+		7A0000970000000000000097 /* ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift"; sourceTree = "<group>"; };
+		7A0000980000000000000098 /* ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift"; sourceTree = "<group>"; };
+		90FD6305B83F4ACBCE914B15 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS18.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		9681934E92AA860796C6BFAE /* iobroker_objectsUITests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iobroker_objectsUITests.swift; sourceTree = "<group>"; };
+		A1127065C8BB4B9FA7D8C89E /* RESTClientTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = RESTClientTests.swift; sourceTree = "<group>"; };
+		AAC28ACF2FD58A63002533D9 /* iobroker objects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iobroker objects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5DD11F321E9FFC5F1932FF8 /* ModelTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
+		DB6E3C4A5C43E248DDEE1DCE /* IoBrokerValueTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IoBrokerValueTests.swift; sourceTree = "<group>"; };
+		EE5DC0658BB7013D25A20833 /* FilterTests.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = FilterTests.swift; sourceTree = "<group>"; };
+		FD26A9CB18A9BD2C8C6C9F64 /* iobroker objectsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iobroker objectsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7A0000110000000000000011 /* ioBroker Objects Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ioBroker Objects Watch App";
+			sourceTree = "<group>";
+		};
+		7A0000120000000000000012 /* ioBroker Objects Watch Widgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "ioBroker Objects Watch Widgets";
+			sourceTree = "<group>";
+		};
+		AAC28AD12FD58A63002533D9 /* iobroker objects */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "iobroker objects";
+			sourceTree = "<group>";
+		};
+		B10F00012FD58A63002533D9 /* Shared */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Shared;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11EB9BB32F400DB317261805 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D20AAF5B32E5621DFB7C3C04 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000410000000000000041 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000450000000000000045 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC28ACC2FD58A63002533D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3F639B4B01F67B8396AB298 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A24934B9617131F05591D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		024A19AAD12B8E4D704AB0D9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				363F5A01C45181E073D7BE7B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		363F5A01C45181E073D7BE7B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				90FD6305B83F4ACBCE914B15 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		9A3D985493B5CBCECB925492 /* iobroker objectsTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B4CD8F182459C747364C304 /* ErrorAndStoreTests.swift */,
+				EE5DC0658BB7013D25A20833 /* FilterTests.swift */,
+				DB6E3C4A5C43E248DDEE1DCE /* IoBrokerValueTests.swift */,
+				C5DD11F321E9FFC5F1932FF8 /* ModelTests.swift */,
+				A1127065C8BB4B9FA7D8C89E /* RESTClientTests.swift */,
+				70893AF16E3A203327FB4E5D /* ObjectTreeTests.swift */,
+				7160819180107A59E02B9B3C /* DashboardTests.swift */,
+			);
+			path = "iobroker objectsTests";
+			sourceTree = "<group>";
+		};
+		AA566B262FDD667D008749C5 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				7A0000900000000000000090 /* Shared/Watch/WatchPayloads.swift */,
+				7A0000910000000000000091 /* ioBroker Objects Watch App/ioBrokerObjectsWatchApp.swift */,
+				7A0000920000000000000092 /* ioBroker Objects Watch App/Models/WatchAppModel.swift */,
+				7A0000930000000000000093 /* ioBroker Objects Watch App/Services/WatchConnectivityClient.swift */,
+				7A0000940000000000000094 /* ioBroker Objects Watch App/Services/WatchHaptics.swift */,
+				7A0000950000000000000095 /* ioBroker Objects Watch App/Services/WatchSnapshotStore.swift */,
+				7A0000960000000000000096 /* ioBroker Objects Watch App/Views/WatchHomeView.swift */,
+				7A0000970000000000000097 /* ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift */,
+				7A0000980000000000000098 /* ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
+		AAC28AC62FD58A63002533D9 = {
+			isa = PBXGroup;
+			children = (
+				AAC28AD12FD58A63002533D9 /* iobroker objects */,
+				B10F00012FD58A63002533D9 /* Shared */,
+				7A0000110000000000000011 /* ioBroker Objects Watch App */,
+				7A0000120000000000000012 /* ioBroker Objects Watch Widgets */,
+				AAC28AD02FD58A63002533D9 /* Products */,
+				024A19AAD12B8E4D704AB0D9 /* Frameworks */,
+				9A3D985493B5CBCECB925492 /* iobroker objectsTests */,
+				BEF3C49143945D26595742FF /* iobroker objectsUITests */,
+				AA566B262FDD667D008749C5 /* Recovered References */,
+			);
+			sourceTree = "<group>";
+		};
+		AAC28AD02FD58A63002533D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AAC28ACF2FD58A63002533D9 /* iobroker objects.app */,
+				7A0000010000000000000001 /* ioBroker Objects Watch App.app */,
+				7A0000020000000000000002 /* ioBroker Objects Watch Widgets.appex */,
+				541FA2D47A4D34E68448FB1C /* iobroker objectsTests.xctest */,
+				FD26A9CB18A9BD2C8C6C9F64 /* iobroker objectsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BEF3C49143945D26595742FF /* iobroker objectsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9681934E92AA860796C6BFAE /* iobroker_objectsUITests.swift */,
+			);
+			path = "iobroker objectsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3E7974ACCB826050BCF481C7 /* iobroker objectsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECA9E90C6BEDE2212E67469D /* Build configuration list for PBXNativeTarget "iobroker objectsUITests" */;
+			buildPhases = (
+				9D64330778A294BC2B4EC0B1 /* Sources */,
+				11EB9BB32F400DB317261805 /* Frameworks */,
+				ECFE6242C2238ED90477FB37 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8160178C0BE7C42E5ADB7F73 /* PBXTargetDependency */,
+			);
+			name = "iobroker objectsUITests";
+			productName = "iobroker objectsUITests";
+			productReference = FD26A9CB18A9BD2C8C6C9F64 /* iobroker objectsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		53DD8951EEF9AF7EDAE3E978 /* iobroker objectsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15AE5EF5F0015383FEDED0F6 /* Build configuration list for PBXNativeTarget "iobroker objectsTests" */;
+			buildPhases = (
+				4003CF1D58E7541093B55BEA /* Sources */,
+				F3F639B4B01F67B8396AB298 /* Frameworks */,
+				2ACD12836529C8AE87F83079 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				240229ED3908068389081553 /* PBXTargetDependency */,
+			);
+			name = "iobroker objectsTests";
+			productName = "iobroker objectsTests";
+			productReference = 541FA2D47A4D34E68448FB1C /* iobroker objectsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7A0000500000000000000050 /* ioBroker Objects Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0000640000000000000064 /* Build configuration list for PBXNativeTarget "ioBroker Objects Watch App" */;
+			buildPhases = (
+				7A0000400000000000000040 /* Sources */,
+				7A0000410000000000000041 /* Frameworks */,
+				7A0000420000000000000042 /* Resources */,
+				7A0000310000000000000031 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A0000730000000000000073 /* PBXTargetDependency */,
+			);
+			name = "ioBroker Objects Watch App";
+			productName = "ioBroker Objects Watch App";
+			productReference = 7A0000010000000000000001 /* ioBroker Objects Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7A0000510000000000000051 /* ioBroker Objects Watch Widgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A0000650000000000000065 /* Build configuration list for PBXNativeTarget "ioBroker Objects Watch Widgets" */;
+			buildPhases = (
+				7A0000440000000000000044 /* Sources */,
+				7A0000450000000000000045 /* Frameworks */,
+				7A0000460000000000000046 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ioBroker Objects Watch Widgets";
+			productName = "ioBroker Objects Watch Widgets";
+			productReference = 7A0000020000000000000002 /* ioBroker Objects Watch Widgets.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		AAC28ACE2FD58A63002533D9 /* iobroker objects */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AAC28ADA2FD58A65002533D9 /* Build configuration list for PBXNativeTarget "iobroker objects" */;
+			buildPhases = (
+				AAC28ACB2FD58A63002533D9 /* Sources */,
+				AAC28ACC2FD58A63002533D9 /* Frameworks */,
+				AAC28ACD2FD58A63002533D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				AAC28AD12FD58A63002533D9 /* iobroker objects */,
+				B10F00012FD58A63002533D9 /* Shared */,
+			);
+			name = "iobroker objects";
+			productName = "iobroker objects";
+			productReference = AAC28ACF2FD58A63002533D9 /* iobroker objects.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AAC28AC72FD58A63002533D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2630;
+				LastUpgradeCheck = 2630;
+				TargetAttributes = {
+					7A0000500000000000000050 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					7A0000510000000000000051 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+					AAC28ACE2FD58A63002533D9 = {
+						CreatedOnToolsVersion = 26.3;
+					};
+				};
+			};
+			buildConfigurationList = AAC28ACA2FD58A63002533D9 /* Build configuration list for PBXProject "iobroker objects" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				de,
+				Base,
+			);
+			mainGroup = AAC28AC62FD58A63002533D9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = AAC28AD02FD58A63002533D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AAC28ACE2FD58A63002533D9 /* iobroker objects */,
+				7A0000500000000000000050 /* ioBroker Objects Watch App */,
+				7A0000510000000000000051 /* ioBroker Objects Watch Widgets */,
+				53DD8951EEF9AF7EDAE3E978 /* iobroker objectsTests */,
+				3E7974ACCB826050BCF481C7 /* iobroker objectsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2ACD12836529C8AE87F83079 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000420000000000000042 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000460000000000000046 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC28ACD2FD58A63002533D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECFE6242C2238ED90477FB37 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4003CF1D58E7541093B55BEA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EC92D098D8FB1C60634781B /* ErrorAndStoreTests.swift in Sources */,
+				48DFEC906ACCCEAAA1D3B539 /* FilterTests.swift in Sources */,
+				7EDE01E314E94DAA663F39EC /* IoBrokerValueTests.swift in Sources */,
+				6834B3B21901E8BF06029997 /* ModelTests.swift in Sources */,
+				A973578492409D34EA840B19 /* RESTClientTests.swift in Sources */,
+				7FFC0DF2AA57C6A4B41701CC /* ObjectTreeTests.swift in Sources */,
+				6BB2E89E6FE3EED604B5A481 /* DashboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000400000000000000040 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0000800000000000000080 /* Shared/Watch/WatchPayloads.swift in Sources */,
+				7A0000810000000000000081 /* ioBroker Objects Watch App/ioBrokerObjectsWatchApp.swift in Sources */,
+				7A0000820000000000000082 /* ioBroker Objects Watch App/Models/WatchAppModel.swift in Sources */,
+				7A0000830000000000000083 /* ioBroker Objects Watch App/Services/WatchConnectivityClient.swift in Sources */,
+				7A0000840000000000000084 /* ioBroker Objects Watch App/Services/WatchHaptics.swift in Sources */,
+				7A0000850000000000000085 /* ioBroker Objects Watch App/Services/WatchSnapshotStore.swift in Sources */,
+				7A0000860000000000000086 /* ioBroker Objects Watch App/Views/WatchHomeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7A0000440000000000000044 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A0000870000000000000087 /* Shared/Watch/WatchPayloads.swift in Sources */,
+				7A0000880000000000000088 /* ioBroker Objects Watch Widgets/IoBrokerWatchWidgetBundle.swift in Sources */,
+				7A0000890000000000000089 /* ioBroker Objects Watch Widgets/WatchWidgetDataStore.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D64330778A294BC2B4EC0B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40233FA5F8FB736E3D432E1B /* iobroker_objectsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AAC28ACB2FD58A63002533D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		240229ED3908068389081553 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iobroker objects";
+			target = AAC28ACE2FD58A63002533D9 /* iobroker objects */;
+			targetProxy = 0AD09048ACEF5A64FB1646E6 /* PBXContainerItemProxy */;
+		};
+		7A0000730000000000000073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ioBroker Objects Watch Widgets";
+			target = 7A0000510000000000000051 /* ioBroker Objects Watch Widgets */;
+			targetProxy = 7A0000720000000000000072 /* PBXContainerItemProxy */;
+		};
+		8160178C0BE7C42E5ADB7F73 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "iobroker objects";
+			target = AAC28ACE2FD58A63002533D9 /* iobroker objects */;
+			targetProxy = 310122E245C23DB52DEAE7FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7A0000600000000000000060 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ioBroker Objects";
+				INFOPLIST_KEY_WKApplication = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		7A0000610000000000000061 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ioBroker Objects";
+				INFOPLIST_KEY_WKApplication = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		7A0000620000000000000062 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ioBroker Widgets";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.watchkitapp.widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		7A0000630000000000000063 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "ioBroker Widgets";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.watchkitapp.widgets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "watchos watchsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		A50173663F3D9EBDED1BCD52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iobroker objects.app/iobroker objects";
+			};
+			name = Debug;
+		};
+		A7821069180A1BF6CA6DE5C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iobroker objects";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AAC28AD82FD58A65002533D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AAC28AD92FD58A65002533D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		AAC28ADB2FD58A65002533D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iobroker objects.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Debug;
+		};
+		AAC28ADC2FD58A65002533D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "iobroker objects.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SELECTED_FILES = readonly;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = auto;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx xros xrsimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2,7";
+				XROS_DEPLOYMENT_TARGET = 26.2;
+			};
+			name = Release;
+		};
+		B24D1031B91EFE06236239E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iobroker objects.app/iobroker objects";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D159D06958EDAD1D6545FDF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RG7FE682S2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.entner.iobroker.iobroker-objects.UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "iobroker objects";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15AE5EF5F0015383FEDED0F6 /* Build configuration list for PBXNativeTarget "iobroker objectsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B24D1031B91EFE06236239E3 /* Release */,
+				A50173663F3D9EBDED1BCD52 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0000640000000000000064 /* Build configuration list for PBXNativeTarget "ioBroker Objects Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0000600000000000000060 /* Debug */,
+				7A0000610000000000000061 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A0000650000000000000065 /* Build configuration list for PBXNativeTarget "ioBroker Objects Watch Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A0000620000000000000062 /* Debug */,
+				7A0000630000000000000063 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC28ACA2FD58A63002533D9 /* Build configuration list for PBXProject "iobroker objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC28AD82FD58A65002533D9 /* Debug */,
+				AAC28AD92FD58A65002533D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AAC28ADA2FD58A65002533D9 /* Build configuration list for PBXNativeTarget "iobroker objects" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AAC28ADB2FD58A65002533D9 /* Debug */,
+				AAC28ADC2FD58A65002533D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECA9E90C6BEDE2212E67469D /* Build configuration list for PBXNativeTarget "iobroker objectsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7821069180A1BF6CA6DE5C7 /* Release */,
+				D159D06958EDAD1D6545FDF5 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AAC28AC72FD58A63002533D9 /* Project object */;
+}
