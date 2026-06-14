@@ -1,0 +1,1 @@
+# iobroker-objects-release
