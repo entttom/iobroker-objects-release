@@ -4,17 +4,6 @@
 <dict>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
-	<key>CFBundleURLTypes</key>
-	<array>
-		<dict>
-			<key>CFBundleURLName</key>
-			<string>org.entner.iobroker.iobroker-objects</string>
-			<key>CFBundleURLSchemes</key>
-			<array>
-				<string>iobrokerobjects</string>
-			</array>
-		</dict>
-	</array>
 	<key>NSLocalNetworkUsageDescription</key>
 	<string>Diese App verbindet sich mit deiner ioBroker-Instanz in deinem lokalen Netzwerk, um Objekte und States zu laden und zu ändern.</string>
 	<key>NSAppTransportSecurity</key>

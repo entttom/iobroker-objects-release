@@ -1,57 +1,6 @@
-<p align="center">
-  <img src="iobroker%20objects/iobroker%20objects/Assets.xcassets/AppIcon.appiconset/AppIcon-1024.png" alt="ioBroker Objects App Icon" width="96" height="96">
-</p>
+# ioBroker Objects
 
-<h1 align="center">ioBroker Objects</h1>
-
-<p align="center">
-  Eine iOS-, iPadOS- und Apple-Watch-App zum Durchsuchen, Beobachten und Bearbeiten von ioBroker-Objekten und States.
-  Direkt im lokalen Netzwerk, ueber VPN oder ueber Cloudflare Zero Trust.
-</p>
-
-<p align="center">
-  <a href="https://apps.apple.com/us/app/iobroker-objects/id6778004193">
-    <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="Im App Store laden" height="48">
-  </a>
-</p>
-
-<p align="center">
-  <a href="#funktionen">Funktionen</a> ·
-  <a href="#screenshots">Screenshots</a> ·
-  <a href="#dashboard">Dashboard</a> ·
-  <a href="#apple-watch">Apple Watch</a> ·
-  <a href="#cloudflare-zero-trust">Cloudflare</a>
-</p>
-
-## Screenshots
-
-### iPhone
-
-<p align="center">
-  <img src="AppStoreScreenshots/iphone-6-9-01-objects.png" alt="Objekte auf dem iPhone" width="180">
-  <img src="AppStoreScreenshots/iphone-6-9-02-overview.png" alt="Uebersicht auf dem iPhone" width="180">
-  <img src="AppStoreScreenshots/iphone-6-9-03-favorites.png" alt="Favoriten auf dem iPhone" width="180">
-  <img src="AppStoreScreenshots/iphone-6-9-04-dashboard.png" alt="Dashboard auf dem iPhone" width="180">
-  <img src="AppStoreScreenshots/iphone-6-9-05-settings.png" alt="Einstellungen auf dem iPhone" width="180">
-</p>
-
-### iPad
-
-<p align="center">
-  <img src="AppStoreScreenshots/ipad-13-01-objects.png" alt="Objekte auf dem iPad" width="220">
-  <img src="AppStoreScreenshots/ipad-13-02-overview.png" alt="Uebersicht auf dem iPad" width="220">
-  <img src="AppStoreScreenshots/ipad-13-03-favorites.png" alt="Favoriten auf dem iPad" width="220">
-  <img src="AppStoreScreenshots/ipad-13-04-dashboard.png" alt="Dashboard auf dem iPad" width="220">
-  <img src="AppStoreScreenshots/ipad-13-05-settings.png" alt="Einstellungen auf dem iPad" width="220">
-</p>
-
-### Apple Watch
-
-<p align="center">
-  <img src="AppStoreScreenshots_watch/watch-ultra3-01-home.png" alt="Watch Home" width="132">
-  <img src="AppStoreScreenshots_watch/watch-ultra3-02-light.png" alt="Watch Lichtsteuerung" width="132">
-  <img src="AppStoreScreenshots_watch/watch-ultra3-03-thermostat.png" alt="Watch Thermostat" width="132">
-</p>
+Eine iOS-App zum Durchsuchen, Beobachten und Bearbeiten von ioBroker-Objekten und States. Die App kann direkt im lokalen Netzwerk, ueber VPN oder ueber Cloudflare Zero Trust mit einer ioBroker-Instanz verbunden werden.
 
 ## Funktionen
 
@@ -130,43 +79,22 @@ Wenn der WebSocket nicht erreichbar ist, faellt die App automatisch auf Polling 
 
 Der Tab **Dashboard** ist eine vollstaendig vom Nutzer konfigurierbare Smart-Home-Ansicht. Im Unterschied zur **Uebersicht**, die automatisch aus Verbindungsstatus, Favoriten und zuletzt geaenderten States erzeugt wird, stellst du das Dashboard selbst aus ioBroker-Objekten zusammen und bedienst sie direkt.
 
-- **Hinzufuegen:** Im Bearbeitungsmodus oder ueber den Empty-State waehlst du zwischen einer **Smart-Home-Komponente** (kombiniert mehrere zusammengehoerige States in einer Card) und einem **einzelnen ioBroker-Objekt**. Fuer die Objektauswahl wird derselbe Baum wie im Tab *Objekte* genutzt (Suche, Filter, Gruppierung).
-
-### Generische Einzelobjekt-Widgets
-
-Ein generisches Widget zeigt genau einen State:
-
-- *Automatisch* – waehlt anhand des Objekts den passenden Typ
-- *Wertanzeige* – zeigt den aktuellen Wert mit Einheit
-- *Schalter* – fuer schreibbare Boolean-Objekte
-- *Regler* – fuer schreibbare Zahlen mit gueltigem Bereich (`min`/`max`)
-
-### Smart-Home-Komponenten
-
-Eine Komponenten-Card kombiniert mehrere ioBroker-States zu einer echten Smart-Home-Bedienung. Beim Hinzufuegen waehlst du einen Komponententyp (oder **Automatisch erkennen**) und ein primaeres Objekt; die App schlaegt anhand der ioBroker-Rolle, des Datentyps/Wertebereichs, von Begriffen in ID/Name und benachbarter States im selben Channel passende Zuordnungen vor. **Automatisch erkannte Zuordnungen sind nur Vorschlaege** – du kannst sie in der Konfiguration unter *Zugeordnete States* pruefen, manuell aendern oder optionale entfernen, mit einer Live-Vorschau der fertigen Card.
-
-- **Licht:** Ein/Aus und Helligkeit (immer als Prozent angezeigt, beim Schreiben in den nativen Bereich des Adapters umgerechnet – egal ob 0–100, 0–1 oder 0–255), optional Farbtemperatur. Die Card funktioniert auch mit nur einem Power- *oder* nur einem Dimm-State.
-- **Rollladen/Jalousie:** Auf-/Stop-/Ab-Tasten und Positionsanzeige/-regler. Da Adapter unterschiedlich definieren, ob 0 % „offen" oder „geschlossen" bedeutet, gibt es die Option **Position invertieren** (keine automatische Invertierung).
-- **Thermostat:** grosse Ist-Temperatur, direkt einstellbare Zieltemperatur (mit nativer Schrittweite), optional Luftfeuchtigkeit und Betriebsmodus (wenn `common.states` vorhanden).
-- **Klima-Sensor:** Temperatur und Luftfeuchtigkeit (lesend).
-- **Fenster/Tuer-Kontakt** und **Bewegungsmelder:** klarer Zustand mit Symbol, letzter Aenderung und optionalem Batteriestatus.
-- **Energie:** aktuelle Leistung und Gesamtenergie mit den Einheiten aus `common.unit`.
-- **Szene/Aktion:** eine eindeutige Aktionsschaltflaeche (kein dauerhafter Ein-/Aus-Schalter).
-
-Schreibvorgaenge laufen ausschliesslich ueber `AppViewModel.setValue` mit der bestehenden Sicherheitsbestaetigung; Slider schreiben erst beim Loslassen, und waehrend eines Schreibvorgangs sind weitere Aenderungen gesperrt. Fehlt ein optionaler State, bleibt die Card funktionsfaehig (z. B. Licht ohne Dimmer = einfacher Schalter); fehlt das primaere Objekt, erscheint die Platzhalterkarte mit *Neu zuordnen* / *Entfernen*.
-
+- **Widgets hinzufuegen:** Im Bearbeitungsmodus oder ueber den Empty-State waehlst du ein ioBroker-Objekt aus (mit Suche und Filtern nach Favoriten, Schreibbarkeit, Typ und Adapter) und konfigurierst das Widget.
+- **Widgettypen:**
+  - *Automatisch* – waehlt anhand des Objekts den passenden Typ
+  - *Wertanzeige* – zeigt den aktuellen Wert mit Einheit
+  - *Schalter* – fuer schreibbare Boolean-Objekte
+  - *Regler* – fuer schreibbare Zahlen mit gueltigem Bereich (`min`/`max`)
 - **Widgetgroessen:** Kompakt, Standard, Breit, Gross. Das Layout wird responsiv berechnet (keine festen Pixelkoordinaten) und passt sich iPhone, iPad, Split View, Stage Manager und Dynamic Type an.
 - **Bearbeitungsmodus:** Widgets per Drag-and-drop oder ueber das Menue (auch per VoiceOver-Aktionen) neu anordnen, Groesse aendern, konfigurieren oder entfernen. Im Bearbeitungsmodus sind die Bedienelemente deaktiviert, damit nichts versehentlich geschaltet wird.
 - **Sicherheitskritische States** (z. B. Schloesser, Tueren, Alarm, Heizung) fragen wie in der Detailansicht vor dem Schreiben nach.
-- **Live-Updates:** Die Werte aller Dashboard-Cards aktualisieren sich ueber die bestehende WebSocket-/Polling-Logik – bei Komponenten werden **alle** beteiligten States abonniert (z. B. Power *und* Helligkeit einer Licht-Card). Es werden keine zusaetzlichen Timer pro Card gestartet.
+- **Live-Updates:** Die Werte der Dashboard-Widgets aktualisieren sich ueber die bestehende WebSocket-/Polling-Logik. Es werden keine zusaetzlichen Timer gestartet.
 - **Offline/Cache:** Bei fehlender Verbindung zeigt das Dashboard zwischengespeicherte Werte, kennzeichnet sie als moeglicherweise veraltet und deaktiviert schreibende Bedienelemente.
 - **Fehlende Objekte:** Verweist ein Widget auf eine nicht mehr vorhandene Objekt-ID, erscheint eine Platzhalterkarte ("Objekt nicht verfuegbar") mit den Aktionen *Neu zuordnen* und *Entfernen*. Die App stuerzt dabei nicht ab.
 
 ### Dashboard pro Verbindung
 
 Jede gespeicherte ioBroker-Verbindung hat ihr **eigenes Dashboard**. Objekt-IDs gelten nur innerhalb der jeweiligen Instanz, und verschiedene Instanzen koennen identische IDs mit unterschiedlicher Bedeutung verwenden. Beim Wechsel der aktiven Verbindung wird automatisch das zugehoerige Dashboard geladen. Die Konfiguration wird lokal je Verbindung gespeichert (`dashboard.v1.<connectionUUID>`).
-
-Gespeichert werden ausschliesslich **Objekt-ID-Referenzen** (primaeres Objekt + die Zuordnungen einer Komponente) sowie Darstellungsoptionen (Typ, Groesse, Titel, Komponententyp, Invertierung …). **Niemals** gespeichert oder ueber iCloud uebertragen werden aktuelle State-Werte, ioBroker-Rohdaten oder vollstaendige Objekte – diese werden immer live aus der aktiven Verbindung gelesen. Aeltere Dashboards (ohne Komponentenfelder) werden unveraendert weiter geladen.
 
 ### Startscreen
 
@@ -389,39 +317,6 @@ Eine Cloudflare Access Application fuer `iobroker.example.com` reicht, wenn REST
 ```
 
 Zwei Anwendungen oder zwei Subdomains sind nur noetig, wenn du bewusst getrennte Sicherheitsregeln, getrennte Hostnames oder getrennte Zielsysteme willst.
-
-## Home-Screen-Widgets
-
-Die iOS/iPadOS-App bringt native WidgetKit-Widgets fuer den Home Screen mit:
-
-- `ioBroker State`: einzelner State, klein oder mittel.
-- `ioBroker Steuerung`: kompakte Steuerung fuer geeignete Boolean- oder Action-States, klein oder mittel.
-- `ioBroker Dashboard`: mehrere wichtige States aus In-App-Dashboard, Favoriten oder eigener Auswahl, mittel, gross oder extra gross auf iPad.
-
-Widgets werden ueber den iOS-Home-Screen hinzugefuegt und mit App Intents konfiguriert. Die Verbindung und das Objekt werden aus einem lokalen kompakten Index gewaehlt; die Widget-Galerie muss dafuer keine ioBroker-Instanz erreichen. Wenn die Auswahl leer ist, die App oeffnen und die Objektliste einmal aktualisieren.
-
-Die Widgets lesen nur speziell erzeugte Snapshot-Dateien aus der bestehenden App Group `group.org.entner.iobroker.iobroker-objects.watch`. Dort liegen keine Passwoerter, keine Cloudflare Client Secrets, keine Authorization-Header, keine Cookies, keine Access Tokens, keine Keychain-Inhalte und keine vollstaendigen ioBroker-Rohantworten. Gespeichert werden nur kompakte Verbindungs-, Objekt- und State-DTOs.
-
-WidgetKit ist keine Echtzeit-Visualisierung. iOS bestimmt den tatsaechlichen Aktualisierungszeitpunkt. Wenn die App aktiv ist, werden Live-Updates und Polling-Werte gebuendelt in den Widget-Snapshot uebernommen. Zusaetzlich gibt es in der App unter `Einstellungen` > `Home-Screen-Widgets` eine manuelle Aktualisierung und einen Timeline-Reload. Mittelgrosse Widgets zeigen ebenfalls eine manuelle Aktualisierungsaktion, soweit die Plattform sie ausfuehren kann.
-
-Schreibaktionen benoetigen eine erreichbare ioBroker-Instanz und verwenden die bestehende zentrale Kurzbefehle-/ioBroker-Schreiblogik der App: Verbindung pruefen, Objekt pruefen, Schreibrechte pruefen, Typ und Wertebereich validieren, schreiben, danach den bestaetigten State erneut lesen. Sicherheitskritische States wie Schloesser, Alarm, Tueren, Tore oder andere kritisch klassifizierte Rollen werden nicht unbemerkt per Ein-Klick-Widget ausgefuehrt; das Widget fuehrt dann in die App.
-
-Offline zeigt das Widget den zuletzt bestaetigten Wert weiter an und markiert ihn als `Offline`, `Moeglicherweise veraltet` oder mit relativer Zeit. Befehle werden offline nicht lokal gepuffert und spaeter nicht automatisch ausgefuehrt.
-
-Deep Links:
-
-```text
-iobrokerobjects://widget/object/<percent-encoded-object-id>?connection=<uuid>
-iobrokerobjects://widget/dashboard?connection=<uuid>
-```
-
-Deep Links navigieren nur in die App. Sie setzen niemals States direkt.
-
-Unterschiede:
-
-- In-App-Dashboard: live, interaktiv und voll konfigurierbar innerhalb der App.
-- Home-Screen-Widget: kompakter Snapshot fuer iPhone/iPad mit WidgetKit-Aktualisierungsgrenzen.
-- Watch-Komplikation: eigener Watch-Snapshot fuer ausgewaehlte Watch-Objekte.
 
 ## Sicherheit
 
